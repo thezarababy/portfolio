@@ -12,7 +12,7 @@ const Hero = () => {
           {" "}
           <span className="text-blue-900">Full</span>Stack Developer
         </h1>
-        <p className="text-2xl w-2/2  max-md:mx-auto py-4">
+        <p className="text-2xl w-2/3 max-md:mx-auto py-4">
           Passionate Full Stack Developer building seamless digital experiences
         </p>
         <div className="mt-6">
