@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div id="footer" className="max-w-[1440px] bg-blue-900">
+    <div id="footer" className="max-w-[1440px] bg-blue-900 mx-auto ">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 pt-6 pb-4">
         <a href="#about" className="text-2xl font-semibold text-white">
           Joy Okoduwa
