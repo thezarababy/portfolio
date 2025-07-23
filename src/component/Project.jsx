@@ -1,6 +1,10 @@
 import React from "react";
 import piggydesktop from "../assets/piggydesktop.png";
 import piggymobile from "../assets/piggymobile.png";
+import recipedesktop from "../assets/recipedesktop.png";
+import recipemobile from "../assets/recipemobile.png";
+import portone from "../assets/portone.png";
+import porttwo from "../assets/porttwo.png";
 
 const Project = () => {
   return (
@@ -10,11 +14,19 @@ const Project = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {/* Project Card */}
           <div className="bg-white rounded-2xl shadow-md overflow-hidden">
-            <img
-              src="/project1.jpg"
-              alt="Project 1"
-              className="w-full h-48 object-cover"
-            />
+            <div className="mt-4 flex flex-col md:flex-row gap-4">
+              <img
+                src={recipedesktop}
+                alt="Project 1"
+                className="w-full md:w-1/2 rounded-lg shadow-lg"
+              />
+              <img
+                src={recipemobile}
+                alt="Project 1"
+                className="w-full md:w-1/2 rounded-lg shadow-lg"
+              />
+            </div>
+
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">Recipe Finder</h3>
               <p className="text-sm text-gray-600 mb-3">
@@ -28,14 +40,14 @@ const Project = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://live-demo-link.com"
+                  href="https://secret-recipe-finder.vercel.app"
                   target="_blank"
                   className="text-blue-500 hover:underline"
                 >
                   Live Demo
                 </a>
                 <a
-                  href="https://github.com/yourusername/project1"
+                  href="https://github.com/thezarababy/secret-recipe-finder.git"
                   target="_blank"
                   className="text-gray-700 hover:underline"
                 >
@@ -100,13 +112,13 @@ const Project = () => {
           <div className="bg-white rounded-2xl shadow-md overflow-hidden">
             <div className="mt-4 flex flex-col md:flex-row gap-4">
               <img
-                src={piggydesktop}
-                alt="Project 1"
+                src={portone}
+                alt="Project 3"
                 className="w-full md:w-1/2 rounded-lg shadow-lg"
               />
               <img
-                src={piggymobile}
-                alt="Project 1"
+                src={porttwo}
+                alt="Project 3"
                 className="w-full md:w-1/2 rounded-lg shadow-lg"
               />
             </div>
@@ -114,7 +126,7 @@ const Project = () => {
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">Portfolio Website</h3>
               <p className="text-sm text-gray-600 mb-3">
-                AA responsive, single-page portfolio website built with React,
+                A responsive, single-page portfolio website built with React,
                 JSX, Tailwind CSS, and React Router DOM. Features smooth scroll
                 navigation, mobile toggle sidebar, and sections like About,
                 Projects, Skills, and Contact.
@@ -127,14 +139,14 @@ const Project = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://piggy-collab.vercel.app/"
+                  href="https://portfolio-xi-one-ebswhtv1cu.vercel.app/"
                   target="_blank"
                   className="text-blue-500 hover:underline"
                 >
                   Live Demo
                 </a>
                 <a
-                  href="https://github.com/midestic/piggyCollab.git"
+                  href="https://github.com/thezarababy/portfolio.git"
                   target="_blank"
                   className="text-gray-700 hover:underline"
                 >
