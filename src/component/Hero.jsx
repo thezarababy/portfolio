@@ -15,7 +15,7 @@ const Hero = () => {
         <p className="text-2xl w-2/3  max-md:mx-auto py-4">
           Passionate Full Stack Developer building seamless digital experiences
         </p>
-        <div className="mt-6 max-md:flex flex-col">
+        <div className="mt-6 ">
           <a
             href="#contact"
             className="bg-blue-900 px-5 py-3 rounded-lg text-white mr-4 "
