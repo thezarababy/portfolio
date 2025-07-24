@@ -1,4 +1,5 @@
 import React from "react";
+import myImage from "../assets/myImage.jpeg";
 
 const Hero = () => {
   return (
@@ -32,7 +33,13 @@ const Hero = () => {
           </a>
         </div>
       </main>
-      <main className="mx-auto">my image</main>
+      <main className="mx-auto">
+        <img
+          src={myImage}
+          alt="my image"
+          className="h-100 rounded-full max-md:h-50  max-md:my-6"
+        />
+      </main>
     </div>
   );
 };
