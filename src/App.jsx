@@ -9,7 +9,7 @@ import Footer from "./component/Footer";
 
 const App = () => {
   return (
-    <div className="scroll-smooth max-w-[1440px] mx-auto">
+    <div className="bg-black text-white scroll-smooth max-w-[1440px] mx-auto">
       <Header />
       <Hero />
       <About />

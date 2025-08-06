@@ -8,15 +8,11 @@ const Header = () => {
     setToggle(!toggle);
   };
   return (
-    <div
-      id="header"
-      className="fixed top-0 w-full bg-white shadow z-50 p-7 text-slate-700"
-    >
+    <div id="header" className=" h-[100px] px-5 pt-4 text-white">
       <div className="flex justify-between items-center max-w-7xl mx-auto">
-        {/* Logo */}
         <div>
           <h1 className="text-3xl font-semibold max-md:text-2xl">
-            my<span className="text-blue-900">Portfolio</span>
+            my<span className="text-blue-500">Portfolio</span>
           </h1>
         </div>
         {/* Desktop Navigation */}

@@ -3,8 +3,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div id="footer" className="max-w-[1440px] bg-blue-900 mx-auto ">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 pt-6 pb-4">
+    <div id="footer" className=" bg-blue-500 mx-auto ">
+      {/* <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 pt-6 pb-4">
         <a href="#about" className="text-2xl font-semibold text-white">
           Joy Okoduwa
         </a>
@@ -26,9 +26,9 @@ const Footer = () => {
             <FaLinkedin size={24} />
           </a>
         </div>
-      </div>
+      </div> */}
 
-      <div className="text-center text-sm text-white mt-4 pb-5">
+      <div className="text-center text-sm text-white mt-4 p-5">
         &copy; {new Date().getFullYear()} Joy Okoduwa. All rights reserved.
       </div>
     </div>
