@@ -3,7 +3,7 @@ import React from "react";
 const Sidebar = ({ handleToggle }) => {
   return (
     <div className="hidden max-md:block">
-      <main className="  fixed top-0 left-35 h-[100vh] w-full bg-blue-500 text-white z-30 px-6 py-10 shadow-lg mt-25">
+      <main className="  fixed top-0 left-0  z-30 h-screen w-screen bg-blue-500 text-white px-6 py-10 shadow-lg mt-25">
         <ul className="flex flex-col gap-6   font-semibold text-2xl">
           <li>
             <a
